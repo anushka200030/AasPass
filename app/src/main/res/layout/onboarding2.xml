@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/onboarding_"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/onboarding1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
-    android:background="@drawable/onboarding_2"
-    />
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="100dp"
+        app:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/icon_2"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="140dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="Under 30 min Delivery"
+        android:textAlignment="center"
+        android:textColor="#586CDC"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/white"
+        android:text="Skip"
+        android:textColor="#494444" />
+
+</RelativeLayout>
