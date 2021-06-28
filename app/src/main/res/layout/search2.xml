@@ -4,5 +4,5 @@
     android:id="@+id/search_2"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/search_2"
+    android:background="@drawable/search2"
     />
